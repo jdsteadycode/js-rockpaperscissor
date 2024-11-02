@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>RockPaperScissor[PHASE003]</title>
+  <!-- CSS -->
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <section id="content">
+    <section class="content-title">
+      Rock
+      <span>~</span>
+      Paper
+      <span>~</span>
+      Scissor
+    </section>
+    <!-- user-ui-->
+    <section class="content-body">
+      <button onclick="handleFinalOutcome('Rock');">
+        ✊
+      </button>
+      <button onclick="handleFinalOutcome('Paper');">
+        ✋
+      </button>
+      <button onclick="handleFinalOutcome('Scissor');">
+        ✌️
+      </button>
+      <button onclick="handleScoreReset();">
+        🧹
+      </button>
+    </section>
+    <!-- score-ui -->
+    <section class="content-score"></section>
+  </section>
+
+  <!-- The actual SIMPLE-TOAST  -->
+  <!-- highlight -->
+  <div id="simpleToast">
+    ⚠️ <span>The notification message...</span>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+
+</html>
