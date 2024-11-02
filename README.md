@@ -39,9 +39,8 @@ js-rockpaperscissor/
 ├── style.css        # The CSS file for styling
 ├── script.js        # The JavaScript file for game logic
 └── README.md        # Project information and instructions
-
+```
 
 ## 📧 Contact
 
 Created by [github](https://github.com/jdsteadycode) - feel free to reach out!
-```
